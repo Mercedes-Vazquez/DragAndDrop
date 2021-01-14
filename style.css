@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+      background-color: rgb(0, 119, 255);
+  
+  }
+  
+  .empty {
+
+    height: 100px;
+    width: 100px;
+    background-color: rgb(230, 16, 16);
+    border: solid, 10px, rgb(7, 9, 136);
+  
+  }
+  
+  .fill {
+  
+    width: 150px;
+    height: 20px;
+    width: 20px;
+    border: solid, 10px, rgb(7, 9, 136);
+  
+  }
+  
+  .hold {
+    border: solid, rgb(7, 9, 136);
+  }
+  
+  .hovered {
+    : dashed;
+  }
+  
+  @media (max-width: 800px) {
+  }
